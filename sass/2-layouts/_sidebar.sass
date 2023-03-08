@@ -1,0 +1,22 @@
+.sidebar-heading
+    border: 0.1rem solid #ccc
+    border-radius: 0.4rem
+    box-shadow: 0 0.4rem 0.8rem 0 rgba(0,0,0,0.2)
+    padding: 1rem
+    width: 20rem
+    margin: 1rem auto
+    text-align: center
+    text-transform: uppercase
+    color: $mid-green
+    background-color: $primary-color
+    
+
+    &:hover
+        color: white
+        background-image: linear-gradient(to right, $secondary-color, $dark-green)
+        cursor: pointer
+        transition: all 0.4s ease-in
+
+.sidebar
+    @media only screen and (max-width: 960px)
+        margin-top: 2rem

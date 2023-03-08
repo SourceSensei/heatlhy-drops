@@ -1,0 +1,53 @@
+html
+    font-size: 10px
+    font-family: $font-stack
+    
+
+
+header
+    font-size: 1.5rem
+    @media only screen and (max-width: 960px)
+        font-size: 1rem
+
+h1
+    font-size: 3.5rem
+    margin: 2rem 0
+    color: $mid-green
+    @media only screen and (max-width: 960px)
+        font-size: 2rem
+
+h2
+    font-size: 1.5rem
+    margin: 2rem 0
+
+p
+    font-size: 1.25rem
+    text-align: center
+    @media only screen and (max-width: 960px)
+        font-size: 1rem
+
+.article-heading-main
+    color: $mid-green
+
+a
+    text-decoration: none
+    color: green
+
+    &:hover
+        @include back-clip
+
+.intro-content
+    margin-left: 1rem
+    @media only screen and (max-width: 960px)
+        margin-left: 0.25rem
+        margin-right: 0.5rem
+
+
+.intro-text
+    text-align: left
+
+.copyright-text
+    @media only screen and (max-width: 960px)
+        font-size: 0.8rem
+        text-align: left
+        margin-right: 3.25rem

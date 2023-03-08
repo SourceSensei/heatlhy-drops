@@ -1,0 +1,44 @@
+.main-article
+    border: 0.1rem solid #ccc
+    border-radius: 0.4rem
+    box-shadow: 0 0.4rem 0.8rem 0 rgba(0,0,0,0.2)
+    padding: 1rem
+    width: 95%
+    margin: 2rem auto
+    background-color: $primary-color
+    &:hover
+        cursor: pointer
+        @include button-move-top
+        box-shadow: 0 1rem 2rem rgba(25, 105, 18, 0.37)
+        transition: all 0.4s
+        color: white
+        background-image: linear-gradient(to right, $secondary-color, $dark-green)
+
+.article-img
+    @include perfect-fit
+    margin: 0 1.3rem
+    margin-top: 4rem
+
+#workout-image1
+    height: 40rem
+    border-radius: 0.5rem
+    margin-bottom: 2rem
+    @media only screen and (max-width: 960px)
+        margin: 0 4rem
+        margin-bottom: 2rem
+
+#workout-image2
+    margin-top: 10rem
+    border-radius: 0.5rem
+    @media only screen and (max-width: 960px)
+        margin: 0 2.5rem
+        margin-bottom: 2rem
+
+#workout-image3
+    height: 40rem
+    margin-left: 1rem
+    border-radius: 0.5rem
+    margin-bottom: 2rem
+    @media only screen and (max-width: 960px)
+        margin: 0 4rem
+        margin-bottom: 2rem

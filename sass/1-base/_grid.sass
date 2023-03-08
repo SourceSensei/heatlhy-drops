@@ -1,0 +1,33 @@
+.container 
+    display: grid
+    grid-template-areas: "section section sidebar" "main main main"
+
+
+
+
+.section
+    grid-area: section
+
+.sidebar
+    grid-area: sidebar
+
+.section_main
+    grid-area: section_main
+
+.footer
+    grid-area: footer
+
+.section
+    display: grid
+    grid-template-columns: repeat(2, 1fr)
+
+.main-article
+    display: grid
+    grid-template-columns: repeat(1, 1fr)
+
+.footer-container
+    display: grid
+    grid-template-columns: repeat(3, 1fr)
+    @media only screen and (max-width: 960px)
+        display: grid
+        grid-template-columns: repeat(3, 1fr)
